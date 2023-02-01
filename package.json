@@ -1,0 +1,17 @@
+{
+  "name": "ejs-blog-site",
+  "version": "1.0.0",
+  "description": "blog site ejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lovepreet singh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21"
+  }
+}

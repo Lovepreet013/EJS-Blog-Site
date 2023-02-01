@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    color: rgb(191, 13, 222);
+    font-size: 20px;
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(234, 234, 234);
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin-right: 20px;
+    list-style: none;
+}
+nav ul li a{
+    color: rgb(191, 13, 222);
+}
+nav ul li a:hover{
+    color: rgb(197, 44, 9);
+    border-bottom: 2px solid rgb(197, 44, 9);
+}
+.container{
+    width: 70%;
+    margin: 10px auto;
+}
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background:rgb(234, 234, 234);
+}
+footer p{
+    text-align: center;
+    background-color: rgb(191, 13, 222);
+    color: rgb(234, 234, 234);
+    padding: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+form label{
+    margin-top: 10px;
+}
+form button{
+    margin-top: 20px;
+    padding: 10px;
+}
+input, textarea{
+    border: 1px solid rgb(66, 186, 193);
+    outline: none;
+    padding: 5px;
+}
+.post{
+    margin-top: 20px;
+    padding: 5px;
+}
+.read{
+    color:cadetblue;
+}
+.read:hover{
+    border-bottom: 2px solid cadetblue;
+}
